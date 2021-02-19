@@ -14,6 +14,9 @@ Clothing store
 
 <img src="public/images/clothing-store.png">
 
+
+<img src="public/images/clothing-store2.png">
+
 ## Running the tests
 
 In the terminal run npm test
