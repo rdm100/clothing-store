@@ -4,7 +4,9 @@ Once cloned or downloaded, use npm install command in the terminal at root level
 
 ## Brief
 
-Create clothing store using React and Redux, using Firebase for authentication, Memoization for performance and stripe for payments.
+Create clothing store with basket to add and remove items as well as taking payments.
+
+Using React and Redux, Firebase for authentication, Memoization for performance and stripe for payments.
 Will be adding styled components and using graphQL and Apollo.
 
 # Project Title
