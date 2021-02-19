@@ -12,7 +12,7 @@ Will be adding styled components and using graphQL and Apollo.
 Clothing store
 
 
-<img src="images/clothing-store.png">
+<img src="public/images/clothing-store.png">
 
 ## Running the tests
 
