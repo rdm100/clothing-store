@@ -8,7 +8,7 @@ import { ReactComponent as Logo } from '../../assets/crown.svg';
 import { auth } from '../..//firebase/firebase.utils';
 import CartIcon from '../cart-icon/cart-icon';
 import CartDropdown from '../cart-dropdown/cart-dropdown';
-import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './header-styles';
+import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './header-styles.jsx';
 
 const Header = ({ currentUser, hidden }) => {
   return (
