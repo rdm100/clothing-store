@@ -6,7 +6,6 @@ import CartItem from '../cart-item/cart-item';
 import { selectCartItems } from '../../redux/cart/cart-selectors';
 import { toggleCartHidden } from '../../redux/cart/cart-actions';
 import { CartDropdownContainer, CartItemsContainer, CartDropdownButton, EmptyMessageContainer } from './cart-dropdown-styles.jsx';
-import './court-dropdown.scss';
 
 const CartDropdown = ({ cartItems, history, dispatch }) => {
   return (
