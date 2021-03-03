@@ -20,3 +20,13 @@ export const selectCollection = memoize((collectionUrlParam) => createSelector(
   // collections => collections.find(collection => collection.routeName === collectionUrlParam) when array was used for data
   )
 );
+
+export const selectIsCollectionsFetching = createSelector(
+  [selectShop],
+  shop => shop.isFetching
+);
+
+export const selectIsCollectionsLoading = createSelector(
+  [selectShop],
+  shop => !!shop.collections
+)
