@@ -4,7 +4,7 @@ import { addItem } from '../../redux/cart/cart-actions';
 import { CollectionItemContainer, CollectionFooterContainer, AddButton, BackgroundImage, NameContainer, PriceContainer } from './collection-item-styles.jsx';
 
 const CollectionItem = ({ item, addItem }) => {
-  const { id, name, price, imageUrl } = item;
+  const { name, price, imageUrl } = item;
   return (
     <CollectionItemContainer>
       <BackgroundImage imageUrl={imageUrl} />
